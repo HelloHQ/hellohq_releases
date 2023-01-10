@@ -3,7 +3,7 @@ name: Validate Plugin Entry
 on:
   pull_request_target:
     branches:
-      - master
+      - main
     paths:
       - plugins-manifest.json
 
