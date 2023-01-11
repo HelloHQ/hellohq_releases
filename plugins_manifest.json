@@ -1,3 +1,9 @@
 [
-
+    {
+        "id": "portfolio_optimizer_plugin",
+        "name": "Portfolio Optimizer",
+        "author": "Noah Jinnn",
+        "description": "Optimize your porfolio",
+        "repo": "NoahJinnn/simple-wasm-plugin"
+    }
 ]
