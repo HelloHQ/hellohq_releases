@@ -6,16 +6,16 @@ on:
 
 jobs:
   manifest:
-    name: Release manifest
+    name: Release plugins manifest
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Upload manifest to release
+      - name: Upload plugins manifest to release
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: manifest.json
-          asset_name: manifest.json
+          file: plugins_manifest.json
+          asset_name: plugins_manifest.json
           tag: ${{ github.ref }}
           overwrite: true
-          body: "Override manifest"
+          body: "Override plugins_manifest"
